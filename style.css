@@ -32,6 +32,11 @@ body {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;
+  font-size: 25px;
+}
+
+.sidenav a#active {
+  color: #c0b4e0;
 }
 
 .main {
@@ -39,11 +44,13 @@ body {
     padding: .5% 3% 2% 3%;
     margin-left: 120px;
     margin-top: 20px;
+    overflow-x: hidden;
 }
 
 section {
   align-content: center;
   float: center;
+  overflow-x: hidden;
 }
 
 #subbox {

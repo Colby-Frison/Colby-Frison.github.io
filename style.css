@@ -49,6 +49,7 @@ body {
     padding: .5% 3% 2% 3%;
     margin-left: 120px;
     margin-top: 20px;
+    margin-bottom: 20px;
     overflow-x: hidden;
 }
 
@@ -99,4 +100,18 @@ hr {
   border-top: 1px solid white;
   margin: auto;
   padding: 0;
+}
+
+footer {
+  background-color: #1a1a1a;
+  margin-left: 100px;
+  display: block;
+  width: 100%;
+  padding: 10px
+}
+
+footer p {
+  margin-left: 20px;
+  color: #838383;
+  font-size: 11pt;
 }
